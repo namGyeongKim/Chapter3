@@ -5,6 +5,7 @@
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .green {
@@ -38,12 +39,12 @@ footer {
   height: 100%;
   position: relative;
   transform: translateY(-100%);
-  background-color: pink;
+  background-color: gray;
   text-align: center;
 }
 
 .back-color {
-  background-color: rgb(225, 224, 238);
+  background-color: rgb(250, 245, 245);
 }
 
 .section1 h1 {
