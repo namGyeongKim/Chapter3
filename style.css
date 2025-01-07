@@ -1,0 +1,45 @@
+.box {
+  border: 50px solid red;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.green {
+  border-color: green;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.visible-hidden {
+  visibility: hidden;
+}
+
+.display-non {
+  display: none;
+}
+
+div > p {
+  font: oblique 20px / 1 normal;
+  color: #7f8c8d;
+}
+
+#center {
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  height: 100%;
+  position: relative;
+  transform: translateY(-100%);
+  background-color: pink;
+}
+
+.back-color {
+  background-color: rgb(251, 250, 253);
+}
