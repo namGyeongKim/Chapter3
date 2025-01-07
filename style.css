@@ -1,4 +1,4 @@
-#section1 box {
+.box {
   border: 50px solid red;
   width: 200px;
   padding: 50px;
@@ -7,39 +7,45 @@
   margin-right: auto;
 }
 
-#section1 .green {
+.green {
   border-color: green;
 }
 
-#section1 .blue {
+.blue {
   border-color: blue;
 }
 
-#section1 .visible-hidden {
+.visible-hidden {
   visibility: hidden;
 }
 
-#section1 .display-non {
+.display-non {
   display: none;
 }
 
-#section1 div > p {
+.section1 div > p {
   font: oblique 20px / 1 normal;
   color: #7f8c8d;
-}
-
-#section1 #center {
   text-align: center;
 }
 
-#section1 footer {
+center {
+  text-align: center;
+}
+
+footer {
   margin-top: 50px;
   height: 100%;
   position: relative;
   transform: translateY(-100%);
   background-color: pink;
+  text-align: center;
 }
 
-#section1 .back-color {
-  background-color: rgb(251, 250, 253);
+.back-color {
+  background-color: rgb(225, 224, 238);
+}
+
+.section1 h1 {
+  text-align: center;
 }
