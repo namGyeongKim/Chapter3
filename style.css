@@ -1,4 +1,4 @@
-.box {
+#section1 box {
   border: 50px solid red;
   width: 200px;
   padding: 50px;
@@ -7,32 +7,32 @@
   margin-right: auto;
 }
 
-.green {
+#section1 .green {
   border-color: green;
 }
 
-.blue {
+#section1 .blue {
   border-color: blue;
 }
 
-.visible-hidden {
+#section1 .visible-hidden {
   visibility: hidden;
 }
 
-.display-non {
+#section1 .display-non {
   display: none;
 }
 
-div > p {
+#section1 div > p {
   font: oblique 20px / 1 normal;
   color: #7f8c8d;
 }
 
-#center {
+#section1 #center {
   text-align: center;
 }
 
-footer {
+#section1 footer {
   margin-top: 50px;
   height: 100%;
   position: relative;
@@ -40,6 +40,6 @@ footer {
   background-color: pink;
 }
 
-.back-color {
+#section1 .back-color {
   background-color: rgb(251, 250, 253);
 }
